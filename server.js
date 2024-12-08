@@ -17,6 +17,7 @@ dotenv.config();
 // Enable CORS
 app.use(cors());
 
+
 // API Routes
 app.use('/api/cars/', require('./routes/carsRoute'));
 app.use('/api/users/', require('./routes/usersRoute'));
